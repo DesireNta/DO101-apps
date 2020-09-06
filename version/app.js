@@ -5,7 +5,7 @@ var response;
 
 app.get('/', function (req, res) {
 
-    response = 'This is a test for automatique updates !!.' + '\n';
+    response = 'Update number 3,This is a test for automatique updates !!.' + '\n';
 
     //send the response to the client
     res.send(response);
