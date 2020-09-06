@@ -2,7 +2,7 @@ var express = require('express');
 app = express();
 
 app.get('/', function (req, res) {
-  res.send('Mwiriwe, nitwa NTAMBIYE DESIRE!\n');
+  res.send('Mwaramutse neza, turi dimanche!\n');
 });
 
 app.listen(8080, function () {
